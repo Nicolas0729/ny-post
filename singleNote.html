@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single note - New York Post</title>
+    <!-- ----------------BOOTSTRAP-------------- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+    <!-- ----------------FONT AWESOME----------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilos.css?v=1.5">
+    <link rel="stylesheet" href="css/responsive.css?v=1.3">
+
+</head>
+<body>
+    <!-- ---------------SEARCH BOOTSTRAP--------- -->
+      <div class="collapse camp_search" id="collapseExample"> 
+        <div class="card card-body card_coll">
+            <form action="">
+                <div class="camp_text">
+                    <input type="text" placeholder="Type to Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>   
+                <div class="right_camp">
+                    <button type="submit" class="btn btn_submit">SEARCH</button>
+                </div>
+            </form>
+        </div>
+      </div>
+
+    <!-- -------------------------------HEADER-------------------------------- -->
+    <header class="header">
+        <div class="content_header">
+            <div class="header_left">
+                <div class="left_menu">
+                    <button class="btn_menu menu_mobile dropdown-dialog-scrollable" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+                    <button class="btn_menu dropdown-dialog-scrollable" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-bars"></i>SECTIONS</button>
+                    <div class="btn-group">
+                        <ul class="dropdown-menu"> 
+                            <div class="body_drop">
+                                <div class="links_sections p_bottom_md b_bottom_md">
+                                    <a href="#" class="menu_item">News</a>
+                                    <a href="#" class="menu_item">Metro</a>
+                                    <a href="#" class="menu_item">Page Six</a>
+                                    <a href="#" class="menu_item">Sports</a>
+                                    <a href="#" class="menu_item">Post Sports+</a>
+                                    <a href="#" class="menu_item">Sports Betting</a>
+                                    <a href="#" class="menu_item">Business</a>
+                                    <a href="#" class="menu_item">Opinion</a>
+                                    <a href="#" class="menu_item">Entertainment</a>
+                                    <a href="#" class="menu_item">Fashion & Beauty</a>
+                                    <a href="#" class="menu_item">Shopping</a>
+                                    <a href="#" class="menu_item">Lifestyle</a>
+                                    <a href="#" class="menu_item">Real State</a>
+                                    <a href="#" class="menu_item">Media</a>
+                                    <a href="#" class="menu_item">Tech</a>
+                                    <a href="#" class="menu_item">Healt</a>
+                                    <a href="#" class="menu_item">Travel</a>
+                                    <a href="#" class="menu_item">Astrology</a>
+                                    <a href="#" class="menu_item">Video</a>
+                                    <a href="#" class="menu_item">Photos</a>
+                                    <a href="#" class="menu_item">Visual Stories</a>
+                                </div>
+                                <div class="links_custom p_top_md b_bottom_md p_bottom_md">
+                                    <a href="#" class="item_custom">Covers</a>
+                                    <a href="#" class="item_custom">Columnists</a>
+                                    <a href="#" class="item_custom">Horoscopes</a>
+                                    <a href="#" class="item_custom">Sports Odds</a>
+                                    <a href="#" class="item_custom">Podcasts</a>
+                                    <a href="#" class="item_custom">Careers</a>
+                                </div>
+                                <div class="links_help p_top_md p_bottom_md b_bottom_md">
+                                    <a href="#" class="help"><i class="fa-solid fa-envelope"></i>Email Newsletters</a>
+                                    <a href="#" class="help"><i class="fa-solid fa-cart-shopping"></i>Official Store</a>
+                                    <a href="#" class="help"><i class="fa-solid fa-truck"></i>Home Delivery</a>
+                                    <a href="#" class="help"><i class="fa-solid fa-eye"></i>Tips</a>
+                                </div>
+                                <div class="bot_drop p_top_md p_right p_left">
+                                    <a href="#" class="btn_log_drop"><i class="fa-solid fa-user"></i>Log In</a>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="left_search">
+                    <button class="btn_search" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <div class="left_mail">
+                    <button class="btn_mail"><i class="fa-solid fa-envelope"></i></button>
+                </div>
+            </div>
+            <div class="header_logo">
+                <div class="logo_img">
+                    <a href="#"><img src="img/New_York_Post_logo.png" alt="" class="logo_header"></a>
+                </div>
+            </div>
+            <div class="header_right">
+                <div class="right_log">
+                    <button class="btn_login"><i class="fa-solid fa-user"></i>LOG IN</button>
+                </div>
+            </div>
+        </div>
+        <div class="bot_header">
+            <div class="calendar_time">
+                <span class="time_today">DICIEMBRE 6, 2022</span>
+            </div>
+        </div>
+        <div class="sub_menu">
+            <div class="content_submenu">
+                <div class="item_submenu">
+                    <a href="#" class="link_sub_menu dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">Sports</a>
+                    <div class="dropdown">
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                          <li><a class="dropdown-item" href="#">Sports</a></li>
+                          <li><a class="dropdown-item" href="#">Sports Betting</a></li>
+                          <li><a class="dropdown-item" href="#">NFL</a></li>
+                          <li><a class="dropdown-item" href="#">MLB</a></li>
+                          <li><a class="dropdown-item" href="#">NBA</a></li>
+                          <li><a class="dropdown-item" href="#">NHL</a></li>
+                          <li><a class="dropdown-item" href="#">2022 World Cup</a></li>
+                          <li><a class="dropdown-item" href="#">NCAAB</a></li>
+                          <li><a class="dropdown-item" href="#">NCAAF</a></li>
+                          <li><a class="dropdown-item" href="#">Sports Entertainment</a></li>
+                          <li><a class="dropdown-item" href="#">Golf</a></li>
+                          <li><a class="dropdown-item" href="#">Tennis</a></li>
+                          <li><a class="dropdown-item" href="#">Wrestling</a></li>
+                          <li><a class="dropdown-item" href="#">MMA</a></li>
+                          <li><a class="dropdown-item" href="#">Boxing</a></li>
+                          <li><a class="dropdown-item" href="#">Soccer</a></li>
+                        </ul>
+                      </div>
+                </div>
+                <div class="item_submenu">
+                    <a href="#" class="link_sub_menu">MBL</a>
+                </div>
+                <div class="item_submenu">
+                    <a href="#" class="link_sub_menu">New York Yankees</a>
+                </div>
+                <div class="item_submenu">
+                    <a href="#" class="link_sub_menu">New York Mets</a>
+                </div>
+                <div class="item_submenu">
+                    <a href="#" class="link_sub_menu">scores</a>
+                </div>
+                <div class="item_submenu">
+                    <a href="#" class="link_sub_menu">Stats</a>
+                </div>
+                <div class="item_submenu">
+                    <a href="#" class="link_sub_menu">Standings</a>
+                </div>
+                <div class="item_submenu">
+                    <a href="#" class="link_sub_menu">Teams</a>
+                </div>
+                <div class="item_submenu">
+                    <a href="#" class="link_sub_menu">Players</a>
+                </div>
+                <div class="item_submenu">
+                    <a href="#" class="link_sub_menu">Odds</a>
+                </div>
+                <div class="item_submenu">
+                    <a href="#" class="link_sub_menu">Injuries</a>
+                </div>
+                <div class="item_submenu">
+                    <a href="#" class="link_sub_menu">Transactions</a>
+                </div>
+                <div class="item_submenu">
+                    <a href="#" class="link_sub_menu">Drafts</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- -----------------------SITE CONTENT----------------------------- -->
+    <main class="site_container">
+        <!-- -------------------MOD PROMO-------------------- -->
+        <div class="module_promo">
+            <div class="content_promo b_bottom_md">
+                <div class="card_promo">
+                    <div class="img_promo">
+                        <img src="img/Reali-Tea-Podcast-PromoTiles.webp" alt="">
+                    </div>
+                    <div class="text_promo">
+                        <a href="#" class="link_promo">Join Page Six for a live podcast event at City Winery on December 5th. Get Tickets<i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="card_promo"> 
+                    <div class="img_promo">
+                        <img src="img/Reali-Tea-Podcast-PromoTiles.webp" alt="">
+                    </div>
+                    <div class="text_promo">
+                        <a href="#" class="link_promo">Join Page Six for a live podcast event at City Winery on December 5th. Get Tickets<i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="card_promo">
+                    <div class="img_promo">
+                        <img src="img/Reali-Tea-Podcast-PromoTiles.webp" alt="">
+                    </div>
+                    <div class="text_promo">
+                        <a href="#" class="link_promo">Join Page Six for a live podcast event at City Winery on December 5th. Get Tickets<i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- -------------------MOD AD_FEATURED----------------- -->
+            <div class="ad_container_featured p_top p_bottom">
+                <div class="content_ad_feat">
+                    <a href="#" class="ad_feat">
+                        <img src="img/ad_feat.jfif" alt="">
+                    </a>
+                </div>
+            </div>
+        <!-- -------------------MAIN HOME----------------------- -->
+        <div class="home">
+            <div class="content_home">
+                <!-- -----------LAYOUT HOME--------------------- -->
+                <div class="layout_home">
+                    <!-- ---------MODULE FEATURED---------- -->
+                    <div class="module_featured p_bottom">
+                        <div class="head_featured_new">
+                            <div class="item_social">
+                                <a href="#" class="social_red facebook"><i class="fa-brands fa-facebook"></i></a>
+                            </div>
+                            <div class="item_social">
+                                <a href="#" class="social_red twitter"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                            <div class="item_social">
+                                <a href="#" class="social_red envelope"><i class="fa-solid fa-envelope"></i></a>
+                            </div>
+                            <div class="item_social">
+                                <a href="#" class="social_red envelope"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                            <div class="comments_numbers">
+                                <a href="#" class="btn_comments"><i class="fa-solid fa-comment"></i>665 Comments</a>
+                            </div>
+                        </div>
+                        <div class="text_featured">
+                            <div class="story_flags">
+                                <div class="card_flag">
+                                    <span class="flag_sm">SPORTS</span>
+                                </div>
+                            </div>
+                            <h2 class="story_headline p_bottom">
+                                <p class="posted">USA survives Iran to advance in World Cup, set up date with Netherlands</p>
+                            </h2>
+                        </div>
+                        <div class="head_meta p_bottom">
+                            <div class="content_meta">
+                                <div class="byline">
+                                    <p class="author">By <a href="#" class="link_author">Dan Martin</a> And <a href="#" class="link_author">Grec Joyce</a></p>
+                                </div>
+                                <div class="date_published">
+                                    <p class="updated">December 7, 2022 | 8:28 am | Updated</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img_featured">
+                            <img src="img/newspress.webp" class="img_feat_home" alt="">
+                        </div>
+                        <div class="text_featured_sm">
+                            <p class="paragraf_new p_bottom">The free-agent superstar and the Yankees agreed to a nine-year, $360 million contract on Wednesday, The Post’s Jon Heyman confirmed, keeping the AL MVP in The Bronx for the foreseeable future and possibly the rest of his career. The Athletic first reported the news.</p>
+                            <p class="paragraf_new">Judge, 30, took a visit with his hometown Giants during the free-agent process but in the end is staying home instead of going home. The Padres also offered a late bid for Judge’s services, meeting him Tuesday night at Petco Park in San Diego, but were turned down.</p>
+                        </div>
+                        <div class="img_featured p_top">
+                            <img src="img/aaron.webp" class="img_feat_home borde_bot_img" alt="">
+                        </div>
+                        <div class="text_featured_sm p_bottom">
+                            <p class="paragraf_new p_bottom">The Giants, who finished 81-81 last season, are expected to be big spenders this offseason. Judge, who could command a contract in excess of $300 million, grew up in Linden, Calif., about two hours away from the Giants’ home stadium, which now goes by Oracle Park.</p>
+                            <p class="paragraf_new">“Does he daydream about elsewhere?” Cashman said last week. “Only he can answer that.”</p>
+                        </div>
+                    </div>
+                    <!-- ---------WIDGET SOCIAL----------------- -->
+                    <div class="widget_social">
+                        <div class="widget_heading">
+                            <h4 class="follow_us">FOLLOW US</h4>
+                        </div>
+                        <div class="widget_social_icons">
+                            <ul class="widget_icon">
+                                <li>
+                                    <a href="#" class="icon_social facebook"><i class="fa-brands fa-facebook"></i></a>
+                                </li>
+                            </ul>
+                            <ul class="widget_icon">
+                                <li>
+                                    <a href="#" class="icon_social twitter"><i class="fa-brands fa-twitter"></i></a>
+                                </li>
+                            </ul>
+                            <ul class="widget_icon">
+                                <li>
+                                    <a href="#" class="icon_social instagram"><i class="fa-brands fa-instagram"></i></a>
+                                </li>
+                            </ul>
+                            <ul class="widget_icon">
+                                <li>
+                                    <a href="#" class="icon_social linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                            <ul class="widget_icon">
+                                <li>
+                                    <a href="#" class="icon_social envelope"><i class="fa-solid fa-envelope"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- ---------MODULE FEATURED---------- -->
+                    <div class="module_featured p_bottom b_bottom_md">
+                        <div class="grid_news"> 
+                            <div class="thirds_news">
+                                <div class="card_news p_right b_right_md">
+                                    <div class="img_news">
+                                        <a href="#" class="img_news_post">
+                                            <img src="img/sam-brinton-comp.webp" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="text_news">
+                                        <h3 class="story_headline_sm">
+                                            <a href="#" class="post_news">Non-binary Biden official used 'stolen' suitcase for month after dumping woman's clothes</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="card_news p_left_md p_right_md">
+                                    <div class="img_news">
+                                        <a href="#" class="img_news_post">
+                                            <img src="img/sam-brinton-comp.webp" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="text_news">
+                                        <h3 class="story_headline_sm">
+                                            <a href="#" class="post_news">Non-binary Biden official used 'stolen' suitcase for month after dumping woman's clothes</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="card_news p_left b_left_md">
+                                    <div class="img_news">
+                                        <a href="#" class="img_news_post">
+                                            <img src="img/sam-brinton-comp.webp" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="text_news">
+                                        <h3 class="story_headline_sm">
+                                            <a href="#" class="post_news">Non-binary Biden official used 'stolen' suitcase for month after dumping woman's clothes</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ------MODULE FEATURED WIHT SIDEBAR--------- -->
+                    <div class="module_featured b_bottom_md p_bottom p_top">
+                        <div class="head_video b_bottom_md">
+                            <div class="content_head_video">
+                                <div class="left_video">
+                                    <a href="#" class="section_heading">VIDEOS</a>
+                                </div>
+                                <div class="right_video">
+                                    <a href="#" class="btn_arrow">MORE VIDEOS<i class="fa-solid fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid_news"> 
+                            <div class="layout_grid">
+                                <div class="layout_item_main">
+                                    <div class="module_featured">
+                                        <a href="#">
+                                            <div class="img_featured">
+                                                <img src="img/VERLANDERNYP0.webp" class="img_feat_home img_relative" alt="">
+                                                <div class="absolute_major_img">
+                                                    <i class="fa-solid fa-play"></i>
+                                                </div>
+                                            </div>
+                                            <div class="text_featured t_left">
+                                                <h2 class="story_headline">
+                                                    <a href="#" class="posted min_posted text_sm_post"> Video: Was picking Verlander over deGrom the right call for Mets?</a>
+                                                </h2>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="layout_item_sidebar the_video">
+                                    <div class="thirds_news j_direction">
+                                        <div class="new_video">
+                                            <a href="#" class="content_inner">
+                                                <div class="layout_inner">
+                                                    <img src="img/SNAKE_WP.webp" alt="">
+                                                    <div class="absolute_img">
+                                                        <i class="fa-solid fa-play"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="text_inner">
+                                                    <h3 class="title_video">Green tree snake takes a wild ride on the hood of a car</h3>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="new_video">
+                                            <a href="#" class="content_inner">
+                                                <div class="layout_inner">
+                                                    <img src="img/BEIGE-FLAGS_WP.webp" alt="">
+                                                    <div class="absolute_img">
+                                                        <i class="fa-solid fa-play"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="text_inner">
+                                                    <h3 class="title_video">Green tree snake takes a wild ride on the hood of a car</h3>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="new_video">
+                                            <a href="#" class="content_inner">
+                                                <div class="layout_inner">
+                                                    <img src="img/BORDER_WALL_CR_WP.webp" alt="">
+                                                    <div class="absolute_img">
+                                                        <i class="fa-solid fa-play"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="text_inner">
+                                                    <h3 class="title_video">Green tree snake takes a wild ride on the hood of a car</h3>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ---------MODULE FEATURED---------- -->
+                    <div class="module_featured p_bottom b_bottom_md">
+                        <div class="grid_news"> 
+                            <div class="thirds_news">
+                                <div class="card_news card_mobile p_right b_right_md">
+                                    <div class="head_video b_bottom_md">
+                                        <div class="content_head_video">
+                                            <div class="left_video">
+                                                <a href="#" class="section_heading">NEWS</a>
+                                            </div>
+                                            <div class="right_video">
+                                                <a href="#" class="btn_arrow"><i class="fa-solid fa-chevron-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="img_news img_news_mobile p_top">
+                                        <a href="#" class="img_news_post">
+                                            <img src="img/Alexander-Hernandez.webp" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="text_news text_news_mobile">
+                                        <h3 class="story_headline_sm p_bottom_md b_bottom_md">
+                                            <a href="#" class="post_news">Non-binary Biden official used 'stolen' suitcase for month after dumping woman's clothes</a>
+                                        </h3>
+                                        <h3 class="story_headline_sm p_bottom_md b_bottom_md">
+                                            <a href="#" class="post_news post_news_sm">Non-binary Biden official used 'stolen' suitcase for month after dumping woman's clothes</a>
+                                        </h3>
+                                        <h3 class="story_headline_sm p_bottom_md b_bottom_md">
+                                            <a href="#" class="post_news post_news_sm">Non-binary Biden official used 'stolen' suitcase for month after dumping woman's clothes</a>
+                                        </h3>
+                                        <h3 class="story_headline_sm">
+                                            <a href="#" class="post_news post_news_sm">Non-binary Biden official used 'stolen' suitcase for month after dumping woman's clothes</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="card_news card_mobile p_left_md p_right_md">
+                                    <div class="head_video b_bottom_md">
+                                        <div class="content_head_video">
+                                            <div class="left_video">
+                                                <a href="#" class="section_heading">SPORTS</a>
+                                            </div>
+                                            <div class="right_video">
+                                                <a href="#" class="btn_arrow"><i class="fa-solid fa-chevron-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="img_news img_news_mobile p_top">
+                                        <a href="#" class="img_news_post">
+                                            <img src="img/winter-meetings.webp" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="text_news text_news_mobile">
+                                        <h3 class="story_headline_sm p_bottom_md b_bottom_md">
+                                            <a href="#" class="post_news">Non-binary Biden official used 'stolen' suitcase for month after dumping woman's clothes</a>
+                                        </h3>
+                                        <h3 class="story_headline_sm p_bottom_md b_bottom_md">
+                                            <a href="#" class="post_news post_news_sm">Non-binary Biden official used 'stolen' suitcase for month after dumping woman's clothes</a>
+                                        </h3>
+                                        <h3 class="story_headline_sm p_bottom_md b_bottom_md">
+                                            <a href="#" class="post_news post_news_sm">Non-binary Biden official used 'stolen' suitcase for month after dumping woman's clothes</a>
+                                        </h3>
+                                        <h3 class="story_headline_sm">
+                                            <a href="#" class="post_news post_news_sm">Non-binary Biden official used 'stolen' suitcase for month after dumping woman's clothes</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="card_news card_mobile card_p_left b_left_md">
+                                    <div class="head_video b_bottom_md">
+                                        <div class="content_head_video">
+                                            <div class="left_video">
+                                                <a href="#" class="section_heading">METRO</a>
+                                            </div>
+                                            <div class="right_video">
+                                                <a href="#" class="btn_arrow"><i class="fa-solid fa-chevron-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="img_news img_news_mobile p_top">
+                                        <a href="#" class="img_news_post">
+                                            <img src="img/nyc-dog-rescue.webp" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="text_news text_news_mobile">
+                                        <h3 class="story_headline_sm p_bottom_md b_bottom_md">
+                                            <a href="#" class="post_news">Non-binary Biden official used 'stolen' suitcase for month after dumping woman's clothes</a>
+                                        </h3>
+                                        <h3 class="story_headline_sm p_bottom_md b_bottom_md">
+                                            <a href="#" class="post_news post_news_sm">Non-binary Biden official used 'stolen' suitcase for month after dumping woman's clothes</a>
+                                        </h3>
+                                        <h3 class="story_headline_sm p_bottom_md b_bottom_md">
+                                            <a href="#" class="post_news post_news_sm">Non-binary Biden official used 'stolen' suitcase for month after dumping woman's clothes</a>
+                                        </h3>
+                                        <h3 class="story_headline_sm">
+                                            <a href="#" class="post_news post_news_sm">Non-binary Biden official used 'stolen' suitcase for month after dumping woman's clothes</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <!-- -----------------SIDEBAR HOME----------- -->
+                <div class="layout_sidebar">
+                    <div class="content_layout_sidebar">
+                        <!-- ----------AD_SIDEBAR--------- -->
+                        <div class="ad_sidebar p_bottom">
+                            <div class="content_ad_sid">
+                                <img src="img/ad_forn.jpg" alt="" class="ad_img">
+                            </div>
+                        </div>
+                        <!-- ---------WIDGET SOCIAL----------------- -->
+                        <div class="widget_social">
+                            <div class="widget_heading">
+                                <h4 class="follow_us">FOLLOW US</h4>
+                            </div>
+                            <div class="widget_social_icons">
+                                <ul class="widget_icon">
+                                    <li>
+                                        <a href="#" class="icon_social facebook"><i class="fa-brands fa-facebook"></i></a>
+                                    </li>
+                                </ul>
+                                <ul class="widget_icon">
+                                    <li>
+                                        <a href="#" class="icon_social twitter"><i class="fa-brands fa-twitter"></i></a>
+                                    </li>
+                                </ul>
+                                <ul class="widget_icon">
+                                    <li>
+                                        <a href="#" class="icon_social instagram"><i class="fa-brands fa-instagram"></i></a>
+                                    </li>
+                                </ul>
+                                <ul class="widget_icon">
+                                    <li>
+                                        <a href="#" class="icon_social linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                                <ul class="widget_icon">
+                                    <li>
+                                        <a href="#" class="icon_social envelope"><i class="fa-solid fa-envelope"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- ----------AD_SIDEBAR--------- -->
+                        <div class="ad_sidebar p_bottom p_top">
+                            <div class="content_ad_sid">
+                                <img src="img/ad_side2.gif" alt="" class="ad_img">
+                            </div>
+                        </div>
+                        <!-- ----------WIDGET_TRENDING_NOW--------- -->
+                        <div class="trending_now">
+                            <div class="content_trending p_all b_all">
+                                <div class="head_trending">
+                                    <h4 class="tittle_trend">TRENDING NOW</h4>
+                                    <span class="border_red"></span>
+                                </div>
+                                <div class="thirds_news j_direction">
+                                    <div class="card_news p_bottom p_top">
+                                        <div class="img_news">
+                                            <a href="#" class="img_news_post">
+                                                <img src="img/sam-brinton-comp.webp" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="text_news">
+                                            <h3 class="story_headline_sm">
+                                                <a href="#" class="post_news post_sm">Non-binary Biden official used 'stolen' suitcase for month after dumping woman's clothes</a>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="card_news p_top b_top_md p_bottom">
+                                        <div class="img_news">
+                                            <a href="#" class="img_news_post">
+                                                <img src="img/sam-brinton-comp.webp" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="text_news">
+                                            <h3 class="story_headline_sm">
+                                                <a href="#" class="post_news post_sm">Non-binary Biden official used 'stolen' suitcase for month after dumping woman's clothes</a>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="card_news p_top b_top_md">
+                                        <div class="img_news">
+                                            <a href="#" class="img_news_post">
+                                                <img src="img/sam-brinton-comp.webp" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="story_flags">
+                                            <div class="card_flag">
+                                                <span class="flag_sm">EXCLUSIVE</span>
+                                            </div>
+                                        </div>
+                                        <div class="text_news">
+                                            <h3 class="story_headline_sm">
+                                                <a href="#" class="post_news post_sm">Non-binary Biden official used 'stolen' suitcase for month after dumping woman's clothes</a>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ----------AD_SIDEBAR--------- -->
+                        <div class="ad_sidebar p_bottom p_top">
+                            <div class="content_ad_sid">
+                                <img src="img/ad_side3.gif" alt="" class="ad_img">
+                            </div>
+                        </div>
+                        <!-- ----------WIDGET_TRENDING_NOW--------- -->
+                        <div class="trending_now p_bottom">
+                            <div class="content_trending p_all b_all">
+                                <div class="head_trending">
+                                    <h4 class="tittle_trend">POST WANTED</h4>
+                                    <span class="border_red"></span>
+                                </div>
+                                <div class="list_posts_sid p_top">
+                                    <div class="story_list p_bottom b_bottom_md">
+                                        <a href="#" class="story_link">
+                                            <div class="img_list_post">
+                                                <img src="img/boyfriend-gifts-1.webp" alt="">
+                                            </div>
+                                            <div class="text_list_post">
+                                                <h3 class="tittle_list_post">65 best Christmas gift ideas for boyfriends 2022: Adidas, Yeti, more</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="story_list p_bottom p_top b_bottom_md">
+                                        <a href="#" class="story_link">
+                                            <div class="img_list_post">
+                                                <img src="img/gifts-for-wife.webp" alt="">
+                                            </div>
+                                            <div class="text_list_post">
+                                                <h3 class="tittle_list_post">Best Christmas gifts for your wife in 2022: 67 thoughtful ideas</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="story_list p_bottom p_top b_bottom_md">
+                                        <a href="#" class="story_link">
+                                            <div class="img_list_post">
+                                                <img src="img/cyber-monday-extended.webp" alt="">
+                                            </div>
+                                            <div class="text_list_post">
+                                                <h3 class="tittle_list_post">102 extended Cyber Monday 2022 deals you can still shop:</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="story_list p_bottom p_top b_bottom_md">
+                                        <a href="#" class="story_link">
+                                            <div class="img_list_post">
+                                                <img src="img/girlfriend-gifts.webp" alt="">
+                                            </div>
+                                            <div class="text_list_post">
+                                                <h3 class="tittle_list_post">70 Christmas gift ideas your girlfriend will actually love</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="story_list p_top">
+                                        <a href="#" class="story_link">
+                                            <div class="img_list_post">
+                                                <img src="img/iphonecyber.webp" alt="">
+                                            </div>
+                                            <div class="text_list_post">
+                                                <h3 class="tittle_list_post">The best Apple iPhone deals this extended Cyber</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </main>
+
+
+    <!-- ----------------------FOOTER----------------- -->
+    <footer class="footer">
+        <div class="content_footer">
+            <div class="footer_top">
+                <div class="footer_logo">
+                    <img src="img/New_York_Post_logo.png" alt="">
+                </div>
+                <div class="footer_social">
+                    <div class="social_footer">
+                        <ul class="social_icons">
+                            <li>
+                                <a href="#" class="icons_icon facebook"><i class="fa-brands fa-facebook"></i></a>
+                            </li>
+                        </ul>
+                        <ul class="social_icons">
+                            <li>
+                                <a href="#" class="icons_icon twitter"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                        </ul>
+                        <ul class="social_icons">
+                            <li>
+                                <a href="#" class="icons_icon instagram"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                        <ul class="social_icons">
+                            <li>
+                                <a href="#" class="icons_icon linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                        <ul class="social_icons">
+                            <li>
+                                <a href="#" class="icons_icon envelope"><i class="fa-solid fa-envelope"></i></a>
+                            </li>
+                        </ul>
+                        <ul class="social_icons">
+                            <li>
+                                <a href="#" class="icons_icon youtube"><i class="fa-brands fa-youtube"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_main">
+                <div class="footer_navigation">
+                    <div class="column_footer">
+                        <div class="head_column_footer">
+                            <h3 class="tittle_head_column">SECTION & FEATURES</h3>
+                        </div>
+                        <div class="body_column_footer">
+                            <ul class="sub_menu_footer">
+                                <a href="#" class="item_sub_menu">NEWS</a>
+                                <a href="#" class="item_sub_menu">SPORTS</a>
+                                <a href="#" class="item_sub_menu">BUSINESS</a>
+                                <a href="#" class="item_sub_menu">ENTERTAINMENT</a>
+                                <a href="#" class="item_sub_menu">SHOPPING</a>
+                                <a href="#" class="item_sub_menu">REAL STATE</a>
+                                <a href="#" class="item_sub_menu">TECH</a>
+                                <a href="#" class="item_sub_menu">TRAVEL</a>
+                                <a href="#" class="item_sub_menu">VIDEO</a>
+                                <a href="#" class="item_sub_menu">VISUAL STORIES</a>
+                                <a href="#" class="item_sub_menu">COVERS</a>
+                                <a href="#" class="item_sub_menu">SPORTS ODDS</a>
+                                <a href="#" class="item_sub_menu">COLUMNISTS</a> 
+                            </ul>
+                            <ul class="sub_menu_footer">
+                                <a href="#" class="item_sub_menu">METRO</a>
+                                <a href="#" class="item_sub_menu">SPORTS BETTING</a>
+                                <a href="#" class="item_sub_menu">OPINION</a>
+                                <a href="#" class="item_sub_menu">FASHION & BEAUTY</a>
+                                <a href="#" class="item_sub_menu">LIFESTYLE</a>
+                                <a href="#" class="item_sub_menu">MEDIA</a>
+                                <a href="#" class="item_sub_menu">HEALTH</a>
+                                <a href="#" class="item_sub_menu">ATROLOGY</a>
+                                <a href="#" class="item_sub_menu">PHOTOS</a>
+                                <a href="#" class="item_sub_menu">ALEXA</a>
+                                <a href="#" class="item_sub_menu">HOROSCOPES</a>
+                                <a href="#" class="item_sub_menu">PODCASTS</a>
+                                <a href="#" class="item_sub_menu">CLASSIFIEDS</a>
+                            </ul>
+                        </div>  
+                    </div>
+                    <div class="column_footer">
+                        <div class="head_column_footer">
+                            <h3 class="tittle_head_column">POST SPORTS+</h3>
+                        </div>
+                        <div class="body_column_footer">
+                            <ul class="sub_menu_footer">
+                                <a href="#" class="item_sub_menu">SUBSCRIBE</a>
+                                <a href="#" class="item_sub_menu">ARTICLE</a>
+                                <a href="#" class="item_sub_menu">MANAGE</a>
+                            </ul>
+                        </div>  
+                    </div>
+                    <div class="column_footer">
+                        <div class="head_column_footer">
+                            <h3 class="tittle_head_column">NEWSLETTERS & FEEDS</h3>
+                        </div>
+                        <div class="body_column_footer">
+                            <ul class="sub_menu_footer">
+                                <a href="#" class="item_sub_menu">EMAIL NEWSLETTERS</a>
+                                <a href="#" class="item_sub_menu">RSS FEEDS</a>
+                                <a href="#" class="item_sub_menu">NY POST OFFICIAL STORE</a>
+                            </ul>
+                        </div>  
+                        <div class="head_column_footer">
+                            <h3 class="tittle_head_column">HOME DELIVERY</h3>
+                        </div>
+                        <div class="body_column_footer">
+                            <ul class="sub_menu_footer">
+                                <a href="#" class="item_sub_menu">SUBSCRIBE</a>
+                                <a href="#" class="item_sub_menu">MANAGE SUSCRIPTION</a>
+                                <a href="#" class="item_sub_menu">DELIVERY HELP</a>
+                            </ul>
+                        </div> 
+                    </div>
+                    <div class="column_footer">
+                        <div class="head_column_footer">
+                            <h3 class="tittle_head_column">HELP/SUPPORT</h3>
+                        </div>
+                        <div class="body_column_footer">
+                            <ul class="sub_menu_footer">
+                                <a href="#" class="item_sub_menu">ABOUT NEW YORK POST</a>
+                                <a href="#" class="item_sub_menu">CUSTOMER SERVICE</a>
+                                <a href="#" class="item_sub_menu">APP FAQ & HELP</a>
+                                <a href="#" class="item_sub_menu">COMMUNITY GUIDELINES</a>
+                            </ul>
+                        </div>
+                        <div class="head_column_footer">
+                            <h3 class="tittle_head_column">CONTACT US</h3>
+                        </div>
+                        <div class="body_column_footer">
+                            <ul class="sub_menu_footer">
+                                <a href="#" class="item_sub_menu">TIPS</a>
+                                <a href="#" class="item_sub_menu">NEWS ROOM</a>
+                                <a href="#" class="item_sub_menu">LETTERS TO THE EDITOR</a>
+                                <a href="#" class="item_sub_menu">REPRINTS</a>
+                                <a href="#" class="item_sub_menu">CARRERS</a>
+                            </ul>
+                        </div>    
+                    </div>
+                    <div class="column_footer">
+                        <div class="head_column_footer">
+                            <h3 class="tittle_head_column">APPS</h3>
+                        </div>
+                        <div class="body_column_footer">
+                            <ul class="sub_menu_footer">
+                                <a href="#" class="item_sub_menu">IPHONE APP</a>
+                                <a href="#" class="item_sub_menu">IPAD APP</a>
+                                <a href="#" class="item_sub_menu">ANDROID IPHONE</a>
+                                <a href="#" class="item_sub_menu">ANDROID TABLET</a>
+                            </ul>
+                        </div>  
+                        <div class="head_column_footer">
+                            <h3 class="tittle_head_column">ADVERTISE</h3>
+                        </div>
+                        <div class="body_column_footer">
+                            <ul class="sub_menu_footer">
+                                <a href="#" class="item_sub_menu">SELF SERVICE</a>
+                                <a href="#" class="item_sub_menu">MEDIA KIT</a>
+                                <a href="#" class="item_sub_menu">CONTACT</a>
+                            </ul>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bot">
+                <span class="copyright">© 2022 NYP Holdings, Inc. All Rights Reserved</span>
+                <a href="#" class="item_bot">Terms of Use</a>
+                <a href="#" class="item_bot">Membership Terms</a>
+                <a href="#" class="item_bot">Privacy Notice</a>
+                <a href="#" class="item_bot">Your Ad Choices</a>
+                <a href="#" class="item_bot">Sitemap</a>
+                <a href="#" class="item_bot">Your California Privacy Rights</a>
+            </div>
+        </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    
+    <!-- ICONS IONICOS -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
